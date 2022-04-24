@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+
+}
+
+#hero-section .text-section, #hero-section .image-section{
+    width: 50%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+.image-section{
+    background: url(img/mechanic-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 61vh;
+}
+.text-section h1{
+    font-size: 50px;
+    font-family: 'Manrope';
+}
+.orange-button{
+    background: #FF6433;
+    border-radius: 12px 5px;
+    padding: 16px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.time-section{
+    margin-top: 30px;
+    align-items: center;
+}
+.time-section .time-icon{
+    width: 8%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-section .time-text{
+    width: 92%;
+}
+
+.time-section img{
+    width: 100%;
+}
+
+#hero-section .flex{
+    align-items: center;
+}
+
+.time-text h5{
+    color: #939191;
+    font-size: 16px;
+}
+
+.time-text p{
+    font-size: 18px;
+    color: #1E1B1B;
+}
+
+#quote-section{
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section{
+    width: 50%;
+    align-content: center;
+    align-items: center; 
+}
+
+#quote-section ul{
+    list-style: none;
+}
+
+#quote-section ul li{
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2{
+    margin-bottom: 30px;
+}
+
+.left-section h2{
+    font-size: 48px;
+    font-family: 'Manrope';
+}
+
+#quote-section .left-section .image-box{
+    width: 5%;
+    margin-right: 10px;
+
+}
+#quote-section .left-section .image-box img{
+    width: 100%;
+}
+
+#quote-section .left-section .text-box{
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5{
+    font-size: 20px;
+}
+#quote-section .left-section .text-box p{
+    font-size: 10px;
+    color: #1E1B1B;
+    margin-bottom: 5px;
+}
+
+.text-box a{
+    text-decoration: none;
+}
+
+.text-box a span{
+    width: 1%;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+#quote-section .right-form-section input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 4px;
+    border: none;
+}
+#learn-section .left-2-section, #learn-section .right-2-section{
+    width: 50%;
+    align-content: center;
+    align-items: center;
+}
+
+#quote-section, #learn-section {
+    padding: 80px 0;
+}
+
+#learn-section .left-2-section h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+#learn-section .left-2-section p{
+    color: #1E1B1B;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+
+#learn-section .right-2-section img{
+    align-items: center;
+    align-content: center;
+    margin-right: 24px;
+
+}
+
+.flex-row .flex{
+    justify-content: space-between;
+}
+
+#learn-section ul{
+    list-style: none;
+}
+
+#learn-section ul li{
+    margin-bottom: 20px;
+}
+
+#learn-section ul li h5{
+    font-size: 32px;
+}
+#learn-section ul li p{
+    font-size: 18px;
+    margin-top: -15px;
+}
+#learn-section .flex .image-box{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 24px;
+}
+
+#learn-section .flex .image-box img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#learn-section .flex .text-box{
+    width: 95%;
+}
+
+#learn-section .parent{
+    align-content: center;
+    align-items: center;
+}
+
+#offer-section{
+    background: #F2F2F2;
+}
+
+#offer-section h1{
+    font-size: 58px;
+    text-align: center;
+}
+
+#offer-section h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+#offer-section .container{
+    padding-bottom: 128px;
+    padding-top: 128px;
+}
+
+#offer-section .first-row .service-box .box-area, #wheel{
+    background: #fff;
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 150px;
+    padding-top: 30px;
+    margin-top: 50px;
+    
+}
+
+#wheel{
+    background: #FF6433;
+    color: #fff;
+}
+#offer-section .second-row .service-box .box-area{
+    background: #fff;
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 150px;
+    padding-top: 30px;
+    margin-top: 7px;
+}
+
+#offer-section .first-row, .second-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#offer-section a{
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end
+
+}
+
+#interact-section{
+    background: #F2F2F2;
+    height: 90vh;
+}
+
+#interact-section .flex{
+    height: 80vh;
+}
+#interact-section .first-img{
+    width: 20%;
+    background: url(img/car-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 61vh;
+}
+
+#interact-section .second-img{
+    width: 40%;
+    background: #FF6433;
+    padding: 20px;
+    height: 61vh;
+}
+
+#interact-section .second-img a{
+    background: #000000;
+}
+
+#interact-section .second-img h1{
+    color: #fff;
+    font-size: 38px;
+
+}
+
+#interact-section .third-img{ 
+    width: 40%;
+    background: url(img/wire-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 61vh;
+    
+}
+
+#interact-section .container{
+    background: #F2F2F2;
+}
+.rate-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate img{
+    margin-bottom: 10px;
+}
+
+#interact-section .flex{
+    margin-bottom: -50px;
+}
+
+#interact-section .container{
+    margin-bottom: -50px;
+}
+
+
+.rate-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate img{
+    margin-bottom: 10px;
+}
+
+#interact-section .flex{
+    margin-bottom: -50px;
+}
+
+#interact-section .container{
+    margin-bottom: -50px;
+}
+
+.rate-top img{
+    height: 90px;
+    margin-top: 30px;
+}
+
+#brand-section .container{
+    text-align: center;
+}
+
+#brand-section .container h1{
+    font-size: 48px;
+    margin: 50px;
+}
+
+#brand-section{
+    height: 90vh;
+}
