@@ -167,10 +167,8 @@
 
 .text-box a{
     text-decoration: none;
-}
-
-.text-box a span{
-    width: 1%;
+    color: #1E1B1B;
+    margin-right: 10px;
 }
 
 #quote-section .right-form-section h3{
@@ -270,8 +268,8 @@
 }
 
 #offer-section .container{
-    padding-bottom: 128px;
-    padding-top: 128px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 #offer-section .first-row .service-box .box-area, #wheel{
@@ -283,7 +281,14 @@
     height: 150px;
     padding-top: 30px;
     margin-top: 50px;
-    
+}
+
+#offer-section  #wheel:hover{
+    background-color: #000;
+}
+
+#offer-section .first-row .service-box .box-area:hover, #offer-section .second-row .service-box .box-area:hover{
+    background-color: #FF6433;
 }
 
 #wheel{
@@ -307,13 +312,16 @@
     align-items: center;
 }
 
-#offer-section a{
-    text-decoration: none;
-    color: black;
+#offer-section .container .flex{
     padding-top: 30px;
     display: flex;
     justify-content: flex-end
+}
 
+#offer-section .container a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
 }
 
 #interact-section{
@@ -336,7 +344,10 @@
 #interact-section .second-img{
     width: 40%;
     background: #FF6433;
-    padding: 20px;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 61vh;
 }
 
@@ -346,7 +357,7 @@
 
 #interact-section .second-img h1{
     color: #fff;
-    font-size: 38px;
+    font-size: 50px;
 
 }
 
