@@ -636,6 +636,89 @@
     background-color: #FF6433;
 }
 
+#operate{
+    height: 90vh;
+}
+
+#operate .container .flex .left, #operate .container .flex .right{
+    width: 49%;
+}
+
+#operate .container .flex{
+    justify-content: space-between;
+    align-content: center;
+}
+
+#operate .container{
+    padding: 20px;
+}
+
+#operate .container .left h2{
+    font-size: 48px;
+    margin-bottom: 20px
+}
+
+#operate .container .left .flex{
+    margin-bottom: 37px;
+}
+
+#operate .container .left .flex img{
+    position: center;
+    margin-right: 15px;
+}
+
+#operate .container .left .flex h3{
+    font-size: 20px;
+}
+
+#operate .container .right .flex{
+    justify-content: space-between;
+}
+#operate .container .right .flex img{
+    width: 49%;
+    height: 477px;
+}
+
+#diagnos{
+    height: 100vh;
+}
+
+#diagnos .container{
+    padding: 20px;
+}
+
+#diagnos .container .flex .left, #diagnos .container .flex .right{
+    width: 49%;
+    align-content: center;
+}
+#diagnos .container .left .flex img{
+    width: 48%;
+    height: 477px
+}
+#diagnos .container .flex{
+    justify-content: space-between;
+}
+
+#diagnos .container .flex h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#diagnos .container .flex p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#diagnos .container .flex a{
+    background: #FF6433;
+    border-radius: 12px 5px;
+    padding: 16px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 35px;
+    display: inline-block;
+}
 /* Mobile view */
 @media (max-width: 426px) {
     .main-header{
