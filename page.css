@@ -83,6 +83,7 @@
 }
 
 .time-section{
+    display: flex;
     margin-top: 30px;
     align-items: center;
 }
@@ -723,5 +724,83 @@
 @media (max-width: 426px) {
     .main-header{
         flex-direction: column;
+        align-items: flex-start;
     }
+
+    .right-section{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section .navigation ul{
+        flex-direction: column;
+    }
+    .right-section .navigation{
+        border: none;
+        width: 100%;
+    }
+
+    .right-section .navigation li{
+        padding: 10px 0;
+        margin-right: 0px;
+    }
+
+    .right-section .navigation li a{
+        display: block;
+    }
+
+    .road-assistance{
+        padding: 10px 0;
+    }
+
+    #hero-section .container .flex{
+        flex-direction: column;
+    }
+
+    #hero-section .container .flex .text-section, #hero-section .container .flex .image-section{
+        width: 100%;
+    }
+
+    #hero-section .container .flex .text-section{
+        order: 2;
+    }
+
+    #hero-section .container .flex .image-section{
+        order: 1;
+    }
+
+    #hero-section .container .flex .text-section h1{
+        font-size: 35px;
+    }
+    
+    #hero-section .container .flex .text-section .time-section .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hero-section .container .flex .image-section{
+        margin-top: 20px;
+        height: 400px;
+    }
+
+    .flex-sm-screen {
+        flex-direction: column;
+    }
+
+    #quote-section .container .flex .left-section, #quote-section .container .flex .right-form-section{
+        width: 100%;
+    }
+
+    #quote-section .container .flex .left-section h2{
+        font-size: 40px;
+    }
+
+    #quote-section .container .left-section #flex-quote{
+        display: flex;
+
+    }
+
+    
 }
