@@ -316,7 +316,7 @@
 #offer-section .container .flex{
     padding-top: 30px;
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 #offer-section .container a{
@@ -327,12 +327,13 @@
 
 #interact-section{
     background: #F2F2F2;
-    height: 90vh;
+    height: 550px;
 }
 
 #interact-section .flex{
     height: 80vh;
 }
+
 #interact-section .first-img{
     width: 20%;
     background: url(img/car-image.png);
@@ -354,6 +355,7 @@
 
 #interact-section .second-img a{
     background: #000000;
+    padding-bottom: 10px
 }
 
 #interact-section .second-img h1{
@@ -793,7 +795,7 @@
     }
 
     #quote-section .container .flex .left-section h2{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #quote-section .container .left-section #flex-quote{
@@ -801,5 +803,298 @@
 
     }
 
+    #quote-section .left-section .text-box p {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    #quote-section .left-section .text-box h5 {
+        font-size: 18px;
+    }
+
+    .text-box a {
+        text-decoration: none;
+        color: #1E1B1B;
+        margin-right: 10px;
+        font-size: 8px;
+        
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
     
+    .orange-button {
+        background: #FF6433;
+        border-radius: 12px 12px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        margin-top: 22px;
+        display: inline-block;
+    }
+    
+    #quote-section .right-form-section form input{
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 4px;
+        border: none;
+    }
+
+    #quote-section .right-form-section form{
+        text-align: center;
+    }
+
+    #learn-section .left-2-section, #learn-section .right-2-section{
+        width: 100%;
+    }
+
+    #learn-section .left-2-section{
+        margin-bottom: 40px;
+    }
+
+    #learn-section .left-2-section h2 {
+        font-size:35px;
+        margin-bottom: 16px;
+    }
+
+    #learn-section .left-2-section p{
+        font-size: 11px;
+        margin-bottom: 12px
+    }
+
+    #learn-section ul li h5 {
+        font-size: 25px;
+    }
+
+    #learn-section ul li .flex{
+        margin-bottom: -10px;
+    }
+
+    #learn-section ul li p {
+        font-size: 15px;
+        margin-top: -15px;
+    }
+
+    #learn-section .flex .image-box img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+
+    #learn-section ul li p {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+
+    #offer-section h1 {
+        font-size: 31px;
+        text-align: center;
+    }
+
+    #offer-section h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 11px;
+    }
+
+    #offer-section .first-row .service-box{
+        display: flex;
+        width: 24%;
+        justify-content: space-between;
+    }
+
+    #offer-section .second-row .service-box{
+        display: flex;
+        width: 24%;
+        justify-content: space-between;
+    }
+
+    #offer-section .second-row .service-box .box-area{
+        height: 100px;
+    }
+
+    #offer-section .first-row .service-box .box-area{
+        height: 100px;
+    }
+
+    #offer-section .service-box img{
+        height: 25px;
+    }
+
+    #offer-section .service-box h3{
+        font-size: 12px
+    }
+
+    #wheel{
+        width: 24%;
+        height: 100px;
+    }
+
+    #wheel img{
+        height: 25px;
+    }
+
+    #wheel h3{
+        font-size: 12px;
+    }
+
+    #interact-section{
+        height: 550px;
+    }
+
+    #interact-section .first-img, #interact-section .second-img, #interact-section .third-img{
+        width: 100%;
+    }
+
+    #interact-section .flex{
+        height: 448px;
+    }
+
+
+    #interact-section .second-img{
+        height: 55vh;
+        padding: 30px;
+    }
+
+    #interact-section .third-img{
+        height: 55vh;
+        padding: 30px;
+    }
+
+    #interact-section .second-img h1 {
+        color: #fff;
+        font-size: 21px;
+    }
+
+    .rate-flex {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .rate-flex .rate{
+        width: 24%;
+    }
+
+    .rate-flex .rate img{
+        height: 22px;
+    }
+
+    .rate-flex .rate h3{
+        font-size: 15px;
+    }
+
+    #interact-section .container{
+        margin-top: 58px
+    }
+
+    #brand-section{
+        height: auto;
+    }
+
+    #brand-section .container h1 {
+        font-size: 25px;
+        margin: 4px;
+    }
+
+    #brand-section .container .rate-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #brand-section .container .rate-top{
+        width: 48%;
+    }
+
+    #review-section {
+        height: auto;
+    }
+
+    #review-section .container h2 {
+        font-size: 24px;
+        margin: -4px;
+        padding-top: 3px;
+    }
+
+    #review-section .left-comment {
+        background: #fff;
+        height: 164px;
+        margin: 4px;
+        padding: 0px;
+    }
+
+    #review-section .left-comment .person img {
+        margin-right: 10px;
+        height: 28px;
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+
+    #review-section .left-comment .person h3{
+        font-size: 13px;
+        margin-top: 7px;
+    }
+
+    #review-section .left-comment .person p{
+        font-size: 7px;
+    }
+ 
+    #review-section .left-comment p {
+        text-align: center;
+        font-size: 10px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #review-section .container img{
+        text-align: center;
+        height: 2px;
+    }
+
+    #contact-section{
+        height: auto;
+    }
+
+    #contact-section .container{
+        padding: 10px
+    }
+
+    #contact-section .left-contact, #contact-section .left-contact{
+        width: 100%
+    }
+
+    #contact-section .left-contact h2 {
+        font-size: 30px;
+        margin-bottom: 19px;
+    }
+
+    #contact-section .flex {
+        margin-bottom: 20px;
+    }
+
+    #contact-section .flex a img{
+        height: 14px;
+    }
+
+    #contact-section .left-contact .flex a {
+        margin-right: 16px;
+    }
+
+    #contact-section .right-contact p {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    #contact-section .right-contact h1 {
+        font-size: 8px;
+        margin-bottom: 17px;
+    }
 }
