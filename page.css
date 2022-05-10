@@ -1097,4 +1097,151 @@
         font-size: 8px;
         margin-bottom: 17px;
     }
+
+    #service{
+        height: 550px;
+    }
+
+    #service .container .flex .img-sec, #service .container .flex .text-sec{
+        width: 100%;
+    }
+
+    #service .container .flex .img-sec{
+        height: 100vh;
+    }
+
+    #service .text-sec h2 {
+        font-size: 35px;
+    }
+
+    #service .text-sec p {
+        color: #F2F2F2;
+        font-size: 12px;
+        margin-top: 23px;
+    }
+
+    .text-sec a {
+        background: #FF6433;
+        border-radius: 5px 5px;
+        padding: 9px 24px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 23px;
+        display: inline-block;
+    }
+    
+    #auto{
+        height: auto;
+    }
+
+    #auto .container .flex .left-auto, #auto .container .flex .right-auto{
+        width: 100%;
+    }
+
+    #auto .flex .left-auto h2 {
+        font-size: 31px;
+        margin-top: 17px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    #auto .flex .left-auto p {
+        font-size: 12px;
+        margin-top: 3px;
+        margin-bottom: 13px;
+    }
+
+    #auto .right-auto .service-box .box-area {
+        background: #fff;
+        width: 164px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #auto .right-auto .service-box .box-area:hover{
+        background: #FF6433;
+    }
+
+    #auto .flex .right-auto{
+        margin-top: 20px;
+    }
+    
+    #auto .right-auto .flex {
+        justify-content: space-between;
+        height: 127px;
+    }
+
+    #auto .right-auto .service-box .box-area img{
+        height: 50px;
+    }
+
+    #auto .right-auto .service-box .box-area h3{
+        font-size: 14px;
+    }
+
+    #operate{
+        height: auto;
+    }
+
+    #operate .container .flex .left, #operate .container .flex .right{
+        width: 100%;
+    }
+
+    #operate .container .flex .left{
+        order: 2;
+    }
+
+    #operate .container .flex .right{
+        order: 1
+    }
+
+    #operate .container .left h2 {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    #operate .container .left .flex h3 {
+        font-size: 17px;
+    }
+
+    #operate .container .left .flex img {
+        position: center;
+        margin-right: 15px;
+        height: 31px;
+    }
+
+    #diagnos{
+        height: auto;
+    }
+
+    #diagnos .container .flex .left, #diagnos .container .flex .right{
+        width: 100%;
+    }
+
+    #diagnos .container .flex h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+        margin-top: 14px;
+    }
+
+    #diagnos .container .flex p {
+        font-size: 11px;
+        margin-bottom: -16px;
+    }
+
+    #diagnos .container .flex a {
+        background: #FF6433;
+        border-radius: 5px 5px;
+        padding: 10px 23px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 35px;
+        display: inline-block;
+    }
+    
 }
