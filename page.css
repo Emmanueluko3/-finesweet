@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-header .main-header{
+.main-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1250,7 +1250,9 @@ header .main-header{
     
 }
 
-@media (max-width: 768px){
+/* Tablet view */
+
+@media (min-width: 768px){
 
     section header .main-head{
         flex-direction: column;
@@ -1558,5 +1560,109 @@ header .main-header{
     
     #footer .right-section .road-assistance .inner-section p{
         font-size: 10px;
+    }
+
+    #service{
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    #service .text-sec h2 {
+        font-size: 56px;
+    }
+
+    #service .text-sec p {
+        color: #F2F2F2;
+        font-size: 13px;
+        margin-top: 27px;
+    }
+
+    #service .text-sec a {
+        background: #FF6433;
+        border-radius: 7px 5px;
+        padding: 12px 29px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 35px;
+        display: inline-block;
+    }
+
+    #service .text-sec {
+        background: #1E1B1B;
+        color: #fff;
+        padding: 45px;
+        height: auto;
+    }
+
+    #service .container, .flex{
+        height: auto;
+    }
+
+    #service .container .img-sec {
+        background: url(img/service.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        height: auto;
+    }
+
+    #auto{
+        height: auto;
+    }
+
+    #auto .flex .left-auto h2 {
+        font-size: 38px;
+        margin-top: 14px;
+        margin-bottom: 10px;
+    }
+
+    #auto .flex .left-auto p {
+        font-size: 19px;
+        margin-top: 14px;
+        margin-bottom: 61px;
+    }
+
+    #auto .right-auto .service-box .box-area {
+        width: 148px;
+    }
+
+    #operate {
+        height: auto;
+    }
+
+    #operate .container .left h2 {
+        font-size: 39px;
+        margin-bottom: 20px;
+    }
+
+    #operate .container .left .flex h3 {
+        font-size: 17px;
+    }
+
+    #diagnos {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    #diagnos .container .flex h2 {
+        font-size: 42px;
+        margin-bottom: 19px;
+    }
+
+    #diagnos .container .flex p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    #diagnos .container .flex a {
+        background: #FF6433;
+        border-radius: 8px 5px;
+        padding: 11px 31px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 35px;
+        display: inline-block;
     }
 }
